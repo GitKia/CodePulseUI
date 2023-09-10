@@ -31,7 +31,7 @@ export class LoginComponent {
         undefined, '/', undefined, true, 'Strict');
 
         this.authService.setUser({
-          emial: response.email,
+          email: response.email,
           roles: response.roles
         });
 

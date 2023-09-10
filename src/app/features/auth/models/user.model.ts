@@ -1,4 +1,4 @@
 export interface User {
-    emial: string;
+    email: string;
     roles: string[];
 }
